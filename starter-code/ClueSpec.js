@@ -9,15 +9,15 @@ it("1 +1 = 2",()=> expect(1+1).toBe(2));
 describe('Find a random element of the array - randomSelector', () => {
   it('Defines randomSelector', () => {
     expect(typeof randomSelector).toBe('function');
-  });
+  }); //hecho
 
   it('Return undefined if the array is empty', () => {
     expect(randomSelector([])).toBe(undefined);
-  });
+  }); //hecho
 
   it('Return the element of a single value array', () => {
     expect(randomSelector(['ab'])).toBe('ab');
-  });
+  }); //
 
   it('Should return an element of the array', ()=> {
     const array = ['ab', 'zz', 'zx', 'zy'];
